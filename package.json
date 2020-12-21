@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "yarn parcel serve ./src/index.html",
+    "build": "yarn parcel build ./src/index.html"
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.16.0",
