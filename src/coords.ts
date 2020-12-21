@@ -1,6 +1,6 @@
-import type { CoordTupleList } from './types';
+import type { Coords } from './types';
 
-export const coords: CoordTupleList = [
+export const coords: Coords = [
   [-163.7128, -78.5956],
   [-163.1058, -78.2233],
   [-161.2451, -78.3801],
