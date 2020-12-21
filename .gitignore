@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+tmp
+
+.ignore
+.*cache
+
+.DS_Store
+*.log

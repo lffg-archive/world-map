@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "@lffg/world-map",
+  "version": "1.0.0",
+  "author": "Luiz Felipe Gonçalves <https://luizfelipe.dev>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-lffg": "^20.0.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "eslintConfig": {
+    "extends": "lffg"
+  },
+  "prettier": "eslint-config-lffg/prettier"
+}
