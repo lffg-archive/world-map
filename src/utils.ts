@@ -21,9 +21,6 @@ export function canvifyCoords(coords: Coords, padding: CoordObj) {
   const absMinX = Math.abs(minX);
   const absMinY = Math.abs(minY);
 
-  console.log(findEdgeCoords(coords));
-  console.log({ absMinX, absMinY });
-
   const newCoords = coords.map<Coord>(([x, y]) => [
     absMinX + x + padding.x,
     absMinY + y + padding.y
